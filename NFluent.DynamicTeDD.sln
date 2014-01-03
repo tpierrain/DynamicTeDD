@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{48FFE590-9B2F-4E9C-863C-9A7EB96B044A}"
+	ProjectSection(SolutionItems) = preProject
+		ContributorsReadme.md = ContributorsReadme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFluent.DynamicTeDD", "NFluent.DynamicTeDD\NFluent.DynamicTeDD.csproj", "{A8EDBE5D-C1F7-41ED-AC28-8A5E95459CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFluent.DynamicTeDD.Tests", "NFluent.DynamicTeDD.Tests\NFluent.DynamicTeDD.Tests.csproj", "{FCCD2D91-3619-41E7-A2ED-0BE60F1B6580}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8EDBE5D-C1F7-41ED-AC28-8A5E95459CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EDBE5D-C1F7-41ED-AC28-8A5E95459CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EDBE5D-C1F7-41ED-AC28-8A5E95459CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EDBE5D-C1F7-41ED-AC28-8A5E95459CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCD2D91-3619-41E7-A2ED-0BE60F1B6580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCD2D91-3619-41E7-A2ED-0BE60F1B6580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCD2D91-3619-41E7-A2ED-0BE60F1B6580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCD2D91-3619-41E7-A2ED-0BE60F1B6580}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

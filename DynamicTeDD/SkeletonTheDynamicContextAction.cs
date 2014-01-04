@@ -17,23 +17,24 @@ namespace DynamicTeDD
     [ContextAction(Name = "SkeletonTheDynamic", Description = "Replaces the dynamic instance with a non-dynamic skeleton type instance.", Group = "C#")]
     public class SkeletonTheDynamicAction : ContextActionBase, IContextAction
     {
-        private readonly ICSharpContextActionDataProvider _provider;
-        private ILiteralExpression _stringLiteral;
+        private readonly ICSharpContextActionDataProvider provider;
+        private ILiteralExpression stringLiteral;
 
         public SkeletonTheDynamicAction(ICSharpContextActionDataProvider provider)
         {
-            _provider = provider;
+            this.provider = provider;
         }
 
         public override bool IsAvailable(IUserDataHolder cache)
         {
-            var literal = _provider.GetSelectedElement<ILiteralExpression>(true, true);
+            var literal = this.provider.GetSelectedElement<ILiteralExpression>(true, true);
+
             if (literal != null && literal.IsConstantValue() && literal.ConstantValue.IsString())
             {
                 var s = literal.ConstantValue.Value as string;
                 if (!string.IsNullOrEmpty(s))
                 {
-                    _stringLiteral = literal;
+                    this.stringLiteral = literal;
                     return true;
                 }
             }
@@ -42,16 +43,16 @@ namespace DynamicTeDD
 
         protected override Action<ITextControl> ExecutePsiTransaction(ISolution solution, IProgressIndicator progress)
         {
-            CSharpElementFactory factory = CSharpElementFactory.GetInstance(_provider.PsiModule);
+            CSharpElementFactory factory = CSharpElementFactory.GetInstance(this.provider.PsiModule);
 
-            var stringValue = _stringLiteral.ConstantValue.Value as string;
+            var stringValue = this.stringLiteral.ConstantValue.Value as string;
             if (stringValue == null)
                 return null;
 
             var chars = stringValue.ToCharArray();
             Array.Reverse(chars);
             ICSharpExpression newExpr = factory.CreateExpressionAsIs("\"" + new string(chars) + "\"");
-            _stringLiteral.ReplaceBy(newExpr);
+            this.stringLiteral.ReplaceBy(newExpr);
             return null;
         }
 

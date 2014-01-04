@@ -10,5 +10,5 @@ The TDD workflow you can have with DynamicTeDD is:
 3. You fill the skeleton with code providing the behavior specified by the test - __GREEN__
 
 - - -
-This workflow is directly inspired by the one suggested by __[Rui CARVALHO](https://twitter.com/rhwy)__ in his __[Dynamic TDD post](http://www.codedistillers.com/rui/2013/12/23/dynamic-tdd/)__
+This workflow is directly inspired by the one suggested by __[Rui CARVALHO](https://twitter.com/rhwy)__ during an __[ALT.NET meetup](http://www.meetup.com/altnetfr/events/153888012/)__, but also in his __[Dynamic TDD](http://www.codedistillers.com/rui/2013/12/23/dynamic-tdd/)__ post.
 

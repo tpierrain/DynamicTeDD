@@ -4,6 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{48FFE590-9B2F-4E9C-863C-9A7EB96B044A}"
 	ProjectSection(SolutionItems) = preProject
 		ContributorsReadme.md = ContributorsReadme.md
+		Readme.md = Readme.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFluent.DynamicTeDD", "NFluent.DynamicTeDD\NFluent.DynamicTeDD.csproj", "{A8EDBE5D-C1F7-41ED-AC28-8A5E95459CC5}"

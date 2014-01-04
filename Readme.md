@@ -1,9 +1,7 @@
 DynamicTeDD
 ===================
 
-DynamicTeDD is a R# plugin that makes your .NET TDD workflow more fluent than ever.
-
-The TDD workflow you can have with DynamicTeDD is:
+DynamicTeDD is a R# plugin that makes your .NET TDD workflow more fluent than ever. Indeed, with DynamicTeDD:
 
 1. You start writing a test with a temporary (*'modeling clay'*) dynamic variable subject (dynamic types supporting the on-the-fly addition of any method/property) - __RED, but without breaking the IDE build, nor leaving the test scope__
 2. Once your test is fully written (including the __[NFluent Check](http://www.n-fluent.net)__), you *Alt-Enter* within the test method scope, and the plugin proposes you to replace your dynamic variable with a classical and non-dynamic skeleton class instance - still __RED__

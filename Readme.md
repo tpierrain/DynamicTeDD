@@ -1,7 +1,7 @@
-NFluent.DynamicTeDD
+DynamicTeDD
 ===================
 
-NFluent.DynamicTeDD is a R# plugin that makes your .NET TDD workflow more fluent than ever.
+DynamicTeDD is a R# plugin that makes your .NET TDD workflow more fluent than ever.
 
 The TDD workflow you can have with DynamicTeDD is:
 

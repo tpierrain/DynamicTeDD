@@ -12,7 +12,7 @@ using JetBrains.ReSharper.Psi.Tree;
 using JetBrains.TextControl;
 using JetBrains.Util;
 
-namespace NFluent.DynamicTeDD
+namespace DynamicTeDD
 {
     [ContextAction(Name = "SkeletonTheDynamic", Description = "Replaces the dynamic instance with a non-dynamic skeleton type instance.", Group = "C#")]
     public class SkeletonTheDynamicAction : ContextActionBase, IContextAction

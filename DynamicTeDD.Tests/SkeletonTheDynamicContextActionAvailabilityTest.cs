@@ -4,7 +4,7 @@ using JetBrains.ReSharper.Intentions.CSharp.Test;
 using JetBrains.ReSharper.Intentions.Extensibility;
 using NUnit.Framework;
 
-namespace NFluent.DynamicTeDD.Tests
+namespace DynamicTeDD.Tests
 {
     [TestFixture]
     public class SkeletonTheDynamicContextActionAvailabilityTest : CSharpContextActionAvailabilityTestBase

@@ -1,4 +1,4 @@
-﻿namespace NFluent.DynamicTeDD.Tests.test.data.SkeletonTheDynamicContextAction
+﻿namespace DynamicTeDD.Tests.test.data.SkeletonTheDynamicContextAction
 {
     using System;
     using Microsoft.CSharp;

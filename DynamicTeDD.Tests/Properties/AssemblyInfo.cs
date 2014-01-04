@@ -1,3 +1,5 @@
+using DynamicTeDD;
+
 using JetBrains.Application;
 using JetBrains.Threading;
 using System.Reflection;
@@ -21,8 +23,8 @@ public class TestEnvironmentAssembly : ReSharperTestEnvironmentAssembly
     // Test assembly
     yield return Assembly.GetExecutingAssembly();
 
-    #warning you need to replace 'object' below with a type from the assembly being tested
-    yield return typeof(object).Assembly;
+    // #warning you need to replace 'object' below with a type from the assembly being tested
+    yield return typeof(SkeletonTheDynamicAction).Assembly;
   }
 
   public override void SetUp()

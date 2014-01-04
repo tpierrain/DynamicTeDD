@@ -8,8 +8,8 @@
     <ProjectGuid>{FCCD2D91-3619-41E7-A2ED-0BE60F1B6580}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NFluent.DynamicTeDD.Tests</RootNamespace>
-    <AssemblyName>NFluent.DynamicTeDD.Tests</AssemblyName>
+    <RootNamespace>DynamicTeDD.Tests</RootNamespace>
+    <AssemblyName>DynamicTeDD.Tests</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -44,7 +44,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\NFluent.DynamicTeDD\Version.cs">
+    <Compile Include="..\DynamicTeDD\Version.cs">
       <Link>Version.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -54,7 +54,12 @@
   <ItemGroup>
     <Content Include="ReadMe.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DynamicTeDD\DynamicTeDD.csproj">
+      <Project>{A8EDBE5D-C1F7-41ED-AC28-8A5E95459CC5}</Project>
+      <Name>DynamicTeDD</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <ReSharperSdkTargets Condition=" '$(ReSharperSdkTargets)' == '' ">$(MSBuildExtensionsPath)\JetBrains\ReSharper.SDK\v7.1</ReSharperSdkTargets>
   </PropertyGroup>

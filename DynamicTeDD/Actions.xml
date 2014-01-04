@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <actions>
   <insert group-id="ReSharper" position="last">
-    <action-group id="NFluent.DynamicTeDD" text="NFluent.DynamicTeDD">
-      <action id="NFluent.DynamicTeDD.About" text="About NFluent.DynamicTeDD"/>
+    <action-group id="DynamicTeDD" text="DynamicTeDD">
+      <action id="DynamicTeDD.About" text="About DynamicTeDD"/>
       <!-- to break up elements use <separator/> -->
     </action-group>
   </insert>

@@ -8,8 +8,8 @@
     <ProjectGuid>{A8EDBE5D-C1F7-41ED-AC28-8A5E95459CC5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NFluent.DynamicTeDD</RootNamespace>
-    <AssemblyName>NFluent.DynamicTeDD</AssemblyName>
+    <RootNamespace>DynamicTeDD</RootNamespace>
+    <AssemblyName>DynamicTeDD</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
